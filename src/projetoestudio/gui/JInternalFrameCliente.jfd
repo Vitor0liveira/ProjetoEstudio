@@ -1,0 +1,43 @@
+JFDML JFormDesigner: "6.0.0.0.84" Java: "1.8.0_111" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x, seq t {space ::288:x, comp btnCadastrar:::p::p, space :::p}}"
+			"$verticalGroup": "par l {seq l {comp panel1:::p:111:p, space ::82:x, comp btnCadastrar:::p::p, space :p:19:p}}"
+		} ) {
+			name: "this"
+			"visible": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:15:p, par l {seq {comp lblNome:::p::p, space s:::p, comp txtNome::::305:x}, seq {comp lblTelefone:::p::p, space :::p, comp txtTelefone:::p:155:p}}, space :::p}}"
+				"$verticalGroup": "par l {seq t {space :::x, par b {comp lblNome::b:p::p, comp txtNome::b:p::p}, space s:::p, par b {comp lblTelefone::b:p::p, comp txtTelefone::b:p::p}, space :p:52:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 240, 247, 177, 255 )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "txtTelefone"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblTelefone"
+					"text": "Telefone:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txtNome"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblNome"
+					"text": "Nome:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnCadastrar"
+				"text": "Cadastrar"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 395, 265 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

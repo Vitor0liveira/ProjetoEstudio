@@ -1,0 +1,23 @@
+[33mcommit 4f178ba810b1e080910d2f70e9d6c21bac979e21[m
+Author: Vitor Oliveira <vitoroliveira.ads@gmail.com>
+Date:   Sun Apr 23 02:56:39 2017 -0300
+
+    Codificaçao da classe Dados, onde se tem os respectivos dados para conectar ao BD
+
+[33mcommit 083fc887a9cf57ca31de59962c47d8381bf16342[m
+Author: Vitor Oliveira <vitoroliveira.ads@gmail.com>
+Date:   Sun Apr 23 02:20:13 2017 -0300
+
+    Foi adicionado a biblioteca do sqljdbc
+
+[33mcommit 3740376f0a06547ff0816a8d53e5af10a62b4478[m
+Author: Vitor Oliveira <vitoroliveira.ads@gmail.com>
+Date:   Sun Apr 23 01:58:44 2017 -0300
+
+    Criando pacotes de acordo com suas necessidades. Também foi criado algumas classes basicas
+
+[33mcommit d316316bd62ac80e67626aa69deac5c05fd6659a[m
+Author: Vitor Oliveira <vitoroliveira.ads@gmail.com>
+Date:   Sun Apr 23 00:41:30 2017 -0300
+
+    Arquivos inicias do projeto
